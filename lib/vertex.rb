@@ -13,4 +13,8 @@ class Vertex
     vertex_1.adjacent << vertex_2
     vertex_2.adjacent << vertex_1
   end
+
+  def inspect
+    "Vertex(#{value})"
+  end
 end
